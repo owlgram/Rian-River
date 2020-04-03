@@ -1,0 +1,158 @@
+/***** BASE STYLES *****/
+
+body {
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 466px;
+    float: left;
+    line-height: 10px;
+}
+
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+}
+
+h1 {
+    color: #bdbf09;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    text-align: center;
+    padding: 300px 0px 0px 0px;
+
+}
+
+h2 {
+    color: #095256;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 48px;
+    text-align: center;    
+    padding: 0px 250px;
+}
+
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 1200px;
+    background-color: #ffffff;
+}
+
+#portfolio h3 {
+    color: #095256;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    
+}
+#portfolio h4 {
+    color: #095256;
+}
+
+#portfolio p {
+    color: #095256;
+}
+
+#portfolio .half-width {
+    margin: 30px 0px 0px 30px;
+}
+
+.text {
+    padding: 0px 0px 0px 20px; 
+}
+
+.thumbnail {
+    padding: 30px 0px 0px 50px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    height: 650px;
+    background-color: #087e8b;
+}
+
+#about h3 {
+    color: #ffffff;
+}
+
+#about p {
+    color: #ffffff;
+}
+
+#about-me-picture {
+    margin: 30px 40px 0px 50px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+    height: 450px;
+    background-color: #095156;
+}
+
+#contact h3 {
+    color: #ffffff;
+}
+
+#contact p {
+    color: #ffffff;
+    text-align: center;
+}
+
+#email {
+    padding-left: 120px;
+}
+
+#contact ul {
+    text-align: center;
+    padding-right: 40px;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#follow-me img {
+    border-radius: 50%;
+}
+
+#hire-me a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#copyright {
+    font-size: 18px;
+    padding-top: 70px;
+}
